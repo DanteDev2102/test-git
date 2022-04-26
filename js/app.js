@@ -1,5 +1,6 @@
 const $btn = document.getElementById('btn');
 
 $btn.addEventListener('click', () => {
-	alert('ola');
+	console.log('hola');
+	$btn.style.display = 'none';
 });
